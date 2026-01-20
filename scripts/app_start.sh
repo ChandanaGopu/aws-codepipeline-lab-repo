@@ -11,6 +11,6 @@ cd /home/ec2-user/git-files/web-app
 
 # Installing node modules for the web application
 npm install
-
+echo "Installed Sucessfully"
 # Starting web application in the background
 nohup node index.js > /dev/null 2>&1 & 
